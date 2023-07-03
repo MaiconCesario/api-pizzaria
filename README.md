@@ -1,7 +1,7 @@
 API Pizzaria
 
 Este projeto foi iniciado com o intuito de colocar em prática o conhecimento adquirido no curso PHP com banco de dados.
-Foram utilizadas as linguagens de HTML, CSS, PHP e algumas páginas JavaScript. O banco de dados utilizado foi MySQL.
+Foram utilizadas as linguagens de HTML, CSS, PHP. O banco de dados utilizado foi MySQL.
 Atualmente, o projeto encontra-se em construção e possui um sistema de login/logout, uma listagem dos produtos e uma página de detalhe dos produtos.
 
  Pré-requisitos
