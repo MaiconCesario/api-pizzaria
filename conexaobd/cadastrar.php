@@ -1,5 +1,25 @@
 <?php require_once("conexao/conexao.php");
+    //insercao no banco
+    if(isset($_POST["nome"])) {
+        $nome               = $_POST["nome"];
+        $endereco           = $_POST["endereco"];
+        $email              = $_POST["email"];
+        $telefone           = $_POST["telefone"];
+        $data_nascimento    = $_POST["data_nascimento"];
+        $usuario            = $_POST["usuario"];
+        $senha              = $_POST["senha"];
 
+        $inserir            = "INSERT INTO clientes ";
+        $inserir            .= " (nomecliente, email, telefone, endereco_entrega, data_nascimento, usuario, senha) ";
+        $inserir            .= " VALUES ('$nome','$endereco','$email','$telefone','$data_nascimento','$usuario','$senha')";
+        
+        $operacao_inserir = mysqli_query($conecta,$inserir);
+        if(!$operacao_inserir) {
+            die("Falha no cadastro");
+        }else{
+            header("location:login.php");
+        }
+    }
 ?>
 <html>
     <head>
@@ -10,7 +30,7 @@
     <body>
         <?php include_once("public/_incluir/topo.php");?>
             <div id="cadastro">
-                <form id="formulario">
+                <form id="formulario" action="cadastrar.php" method="post">
                     <h2>Tela de Cadastro</h2>
                     <input type="text" name="nome" placeholder="Nome">
                     <input type="text" name="endereco" placeholder="Endereço">
@@ -21,9 +41,7 @@
                     <input type="text" name="usuario" placeholder="Usuário">
                     <input type="password" name="senha" placeholder="Senha">
                     <input type="submit" value="Cadastrar">
-                    <div id="mensagem">
-                        <p></p>
-                    </div>
+                    
 
                 </form>
             </div>
