@@ -3,7 +3,7 @@
 Este projeto foi iniciado com o intuito de colocar em prática o conhecimento adquirido no curso PHP com banco de dados.
 Foram utilizadas as linguagens de HTML, CSS, PHP. O banco de dados utilizado foi MySQL.
 
-Atualmente, o projeto encontra-se em construção e possui um sistema de login/logout, uma página de cadastro, uma página de listagem dos produtos e uma página de detalhe dos produtos.
+Atualmente, o projeto encontra-se em construção e possui um sistema de login/logout, uma página de cadastro, uma página de listagem dos produtos com um campo de busca e uma página de detalhe dos produtos.
 
  Pré-requisitos
 
@@ -27,7 +27,7 @@ Para acessar o site do projeto, crie um servidor 'localhost';
 
 1ª Etapa: Criar uma conta
 
-- Acessar localhost/index.php e clique no botão Login para ser direcionado a tela que terá o botão de "cadastrar".
+- Acessar localhost/index.php e clicar no botão Login para ser direcionado a tela que terá o botão de "cadastrar". Crie a senha somente com números.
 - Após criar o cadastro, você será redirecionado para a página para efetuar o "login".
 
 2º Etapa: Acessando a página de Cardápio:
