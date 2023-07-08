@@ -12,7 +12,7 @@
     
     if ( isset($_GET["produto"]) ) {
         $nome_produto = $_GET["produto"];
-        $produtos .= "WHERE sabores LIKE '%{$nome_produto}%' ";
+        $produtos .= " WHERE sabores LIKE '%{$nome_produto}%' ";
     }
     $resultado = mysqli_query($conecta, $produtos);
     if(!$resultado) {
