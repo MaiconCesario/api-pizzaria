@@ -32,7 +32,7 @@ Para acessar o site do projeto, crie um servidor 'localhost';
 
 2º Etapa: Acessando a página de Cardápio:
 
-Após efetuar o login, você será redirecionado para a página "listagem.php" onde serão apresentado o cardápio com as opções de sabores de pizza.
+Após efetuar o login, você será redirecionado para a página "listagem.php" onde será apresentado o cardápio com as opções de sabores de pizza.
 
 - Posicione o mouse em cima da imagem de cada sabor, no canto inferior esquerdo será apresentado a url com um código de cada sabor.
 - Clique na imagem para acessar o sabor da pizza na página "detalhe.php". Esta página contém uma URL com o parametro do código de cada sabor de pizza.
