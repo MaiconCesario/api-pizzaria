@@ -1,4 +1,4 @@
-# API Pizzaria
+# Projeto Pizzaria(Conexão com banco de dados)
 
 Este projeto foi iniciado com o intuito de colocar em prática o conhecimento adquirido no curso PHP com banco de dados.
 Foram utilizadas as linguagens de HTML, CSS, PHP. O banco de dados utilizado foi MySQL.
@@ -16,10 +16,7 @@ Windows:
 Instalar o Xampp 
 
 Acesso ao Banco de Dados:
-Para acessar o banco de dados utilize os seguintes usuário e senha:
-- Usuário: root
-- Senha: 1234
-- Banco: api_pizzaria
+Configure o banco de dados MySQL
 
 Para acessar o site do projeto, crie um servidor 'localhost';
 
